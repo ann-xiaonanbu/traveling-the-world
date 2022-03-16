@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+}
+li{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+}
+.clear:after{
+    display:block;
+    content:"";
+    clear:both;/**清除浮动--兼容高版本浏览器**/
+}
+.clear{
+    *zoom:1;/**兼容低版本浏览器**/
+} 
+.fr{
+    float:right;
+}
+.fl{
+    float: left;
+}
+body{
+    background-color:#000000;
+}
+.header{
+    height:100px;
+    background-color:#00000C;
+}
+.inner{
+    width:1200px;
+    height:100px;
+    margin:0 auto;
+    line-height: 100px;
+}
+.logo{
+    float: left;
+}
+.fr p{
+    color: #FFFFFF;
+    font-size: 15px;
+    font-style: oblique;
+}/**顶部**/
+.kuang{
+    width: 1150px;
+    height: 320px;
+    margin:0 auto;
+}
+.bg-kuangl{
+    height: 300px;
+    width: 750px;
+    background:linear-gradient(#FFD700,#000000);
+    border-radius: 50px;
+
+}
+.bg-kuangr{
+    height: 300px;
+    width: 750px;
+    background:linear-gradient(#FFD700,#000000);
+    border-radius: 50px;
+
+}
+.kuang h1{
+    text-align:center;
+}
+.kuang h2{
+    font-size: 10px;
+    color:#404040  ;
+    font-style: oblique;   
+    text-align:center;
+}
+.kuang h3{
+    font-size: 15px;
+    color: #E0E0E0 ;
+    font-style: oblique;   
+    text-indent:5%;
+    font-weight: 400;
+}
+.kuang a{
+  color:#FFFFFF;
+    text-decoration: none;
+}
+.kuang a:hover{
+    color:#CC9900;
+    }
+ .footer{
+    height: 165px;
+    background: #212425;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.subnav{
+    text-align: center;
+    margin-top: 50px;
+    color:  #f0f1f1;
+}
+.subnav a{
+    color: #f0f1f1;
+    padding: 0 5px;
+    font-size: 14px;
+}
+.subnav a:hover{
+    color:#CC9900;
+    text-decoration: underline;
+}
+.footer p{
+    text-align: center;
+    color:#CC9900;
+    margin-top: 30px;
+}

@@ -1,0 +1,27 @@
+.jishu{
+    width: 80%;
+    height: 1200px;
+    margin: 0 auto;
+    border: 1px solid #cc9900;
+    border-radius: 5px;
+}
+.jishu h1{
+    text-align: center;
+}
+.jishu h3{
+    text-indent: 2em;
+}
+.xinde{
+    width: 80%;
+    height:300px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid #cc9900;
+    border-radius: 5px;
+}
+.xinde h1{
+    text-align: center;
+}
+.xinde h3{
+    text-indent: 2em;
+}

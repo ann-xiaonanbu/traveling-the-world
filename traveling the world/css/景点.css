@@ -1,0 +1,189 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  font-weight: normal;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+ol, ul, li {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* custom */
+a {
+  color: #333;
+  text-decoration: none;
+  /* -webkit-backface-visibility: hidden; */
+}
+
+html, body {
+  width: 100%;
+  font-family: "Microsoft YaHei", "Arial", "黑体", "宋体", "微软雅黑", sans-serif;
+  font-size: 14px;
+}
+
+body {
+  line-height: 1;
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+html {
+  overflow-y: scroll;
+}
+
+/*清除浮动*/
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+/*隐藏*/
+.dn {
+  display: none;
+}
+
+.dan {
+  /* 不换行 */
+  white-space: nowrap;
+  /* 文字超出：省略号 */
+  text-overflow: ellipsis;
+  /* 超出隐藏 */
+  overflow: hidden;
+}
+
+.duo {
+  /* 盒子显示模式 */
+  display: -webkit-box;
+  /* 方向：垂直的 */
+  -webkit-box-orient: vertical;
+  /* 行数 */
+  -webkit-line-clamp: 1000;
+  /* 超出行数就隐藏 */
+  overflow: hidden;
+}
+.fr{
+    float:right;
+}
+.fl{
+    float: left;
+}
+body{
+    background-color:#000000;
+}
+.header{
+    height:100px;
+    width: 100%;
+    background-color:#00000C;
+    overflow: hidden;
+}
+.inner{
+    width:1200px;
+    height:100px;
+    margin:0 auto;
+    overflow: hidden;
+    line-height: 100px;
+}
+.logo{
+    float: left;
+}
+.fr p{
+    color: #FFFFFF;
+    font-size: 15px;
+    font-style: oblique;
+  }
+  /* 页脚 */
+ .footer{
+    height: 165px;
+    background: #212425;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.subnav{
+    text-align: center;
+    margin-top: 50px;
+    color:  #f0f1f1;
+}
+.subnav a{
+    color: #f0f1f1;
+    padding: 0 5px;
+    font-size: 14px;
+}
+.subnav a:hover{
+    color:#CC9900;
+    text-decoration: underline;
+}
+.footer p{
+    text-align: center;
+    color:#CC9900;
+    margin-top: 30px;
+}
+/* 图片展示 */
+.zhanshi img{
+  width: 100%;
+height: 100%;
+transition: 0.5s;
+}
+.zhanshi img:hover{
+transform: scale(1.1);
+}
+/* more */
+.more{
+  color: #CC9900;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-left: 1300px;
+}
+.more:hover{
+  color: #FFFFFF;
+font-weight: bold;
+}
